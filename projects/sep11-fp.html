@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title class="owner-name">#</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand owner-name" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1">
+        <div class="container">
+
+            <h1 class="margin text-center">SEP 11 Freedom Project</h1>
+            <h4>What Was Asked from Us?</h4>
+            <p>The SEP11 Freedom Project was a year long assignment, where we had to design and make a game using a JavaScript Framework. I chose Phaser, a framework dedicated to making games. There was a lot more freedom this year, as we could make whatever we wanted and we didnt need to include what we had learned during the year since each framework operated differently. My game was about killing slimes.</p>
+
+            <p>As mentiioned previously, I used PhaserJS for my project. It is a framework with tons of ways to create a game and that appealed to me. I also saw the finished products online that I really liked so I decided to go with it. I wanted to make a fighting game that was simaliar to Hollow Knight since I was playing it and really liked it. This was very ambitious but I thought I could do it, and it was definitley possible based on the other games I saw in their showcase. I got pretty far with it. I coded the movement, animations and attacks with Phaser's code. However, I encountered quite a few problems along the way.</p> 
+            
+            <h4>Problems I Faced</h4>
+            <p>Phaser was actually a lot more difficult than it appeared. I was given a false sense of confidence from their tutorial, which seemed simple enough. It sort of held your hand through the process, but then you are immediatley pushed into the deep end. The documentation on their website is pretty bad, and isn't explained very well. This led me to searching through old forums in Stack Overflow whenever I would try to code something. On top of that, there almost always seemed to be an error and the messages it gave you only included the line number and behind the scenes effects of the error, never what was actually wrong. Sometimes the screen would also black out so I couldn't have a visual either. When I turned to AI for help, it was almost as useless as the error codes. Half the time it had no idea what it was talking about or I couldn't understand the code it gave me, so I didn't use any of it despite its results.</p> 
+            <p>
+            I remember the biggest challenge I had during this project was making the attack function. There seemed to be multiple ways to do it. A lot of the online ones weren't very clear or they were super complicated. However I eventually got the code to sort of work. I had it in a loop where every time you pressed Z, the system would check for an overlap and then "destroy" the slime. However this would trigger even if I wasnt close to the slime since it kept repeating after I pressed Z. This was fixed by shuffling the code around so that the Z key would be inside the overlap checker. This made it so that everytime there was an overlap, you could press the Z key and the slime would be destroyed. This took a couple weeks to figure out (First few was spent on how to do it, then the last week was trying to get it to work) thanks to Mr. Mueller
+            </p>
+
+                <ul>
+                <b>Pros</b>
+                    <li>Fun to look at</li>
+                    <li>Example of a game made by a noob</li>
+                    <li>Easy to play</li>
+                </ul>
+                <hr>
+                <ul>
+                <b>Cons</b>
+                    <li>Not very detailed or engaging</li>
+                    <li>Didnt reach its full potential</li>
+                </ul>
+            </p>
+            <br>
+
+            
+
+
+            <!--EXAMPLE OF PREVIEW LINK-->
+            <a href="https://gabrielm7281.github.io/sep11-freedom-project/">Preview</a><br>
+            <!--EXAMPLE OF GITHUB LINK-->
+            <a href="https://github.com/gabrielm7281/sep11-freedom-project/blob/main/README.md">Github</a><br>
+
+            <img src="../img/sep11-fp.png" class="img-fluid project-img">
+
+
+
+            <div class="row">
+
+                <!--
+                <div class="col-sm-6">
+                    Use this to...
+                </div>
+                <div class="col-sm-6">
+                    ...make two columns
+                </div>
+                -->
+
+            </div>
+
+            <!-- Example code snippet below (uncomment to use) -->
+            <!-- https://github.com/hstatsep/other/blob/main/prism/prism.md#how-to-format-your-code-snippets -->
+
+            <!--
+            <pre><code class="language-css">
+                h1 {
+                    color: red;
+                }
+            </code></pre>
+            -->
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
+        <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>
 
